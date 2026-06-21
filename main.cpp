@@ -59,7 +59,6 @@ void passthrough_mode() {
 }
 
 void translation_mode() {
-    reset();  // needed only for M0116/M0118
 	while(!is_button_activated()) {
 		key_event_t ev = transaction_get_keys();
 		translate_key_press(ev.keycode_1, ev.pressed_1);
