@@ -54,19 +54,19 @@ Mini-DIN female connector front view :
 
 Arduino Pro Micro pinout :
 ```
-           ___________
-PD3  TXD  |    USB    |  RAW
-PD2   20  |           |  GND
-     GND  |           |  RST
-     GND  |           |  VCC
-PD1    2  |           |  A3   PF4
-PD0    3  |           |  A2   PF5
-PD4    4  |           |  A1   PF6
-PC6    5  |           |  A0   PF7
-PD7    6  |           |  15   PB1
-PE6    7  |           |  14   PB3
-PB4    8  |           |  16   PB2
-PB5    9  |___________|  10   PB6
+                                ___________
+                     PD3  TXD  |    USB    |  RAW
+                     PD2   20  |           |  GND        --- keyboard pin 4
+                          GND  |           |  RST
+computer pin 4 ---        GND  |           |  VCC        --- keyboard pin 3 ---
+                     PD1    2  |           |  A3   PF4                         |
+                     PD0    3  |           |  A2   PF5                         _
+                     PD4    4  |           |  A1   PF6                        | |
+                     PC6    5  |           |  A0   PF7               resistor | |
+                     PD7    6  |           |  15   PB1                        |_|
+                     PE6    7  |           |  14   PB3                         |
+computer pin 2 ---   PB4    8  |           |  16   PB2   --- keyboard pin 2    |
+computer pin 1 ---   PB5    9  |___________|  10   PB6   --- keyboard pin 1 ---
 
 ```
 
