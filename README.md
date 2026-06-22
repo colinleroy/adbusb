@@ -36,6 +36,7 @@ Allow one ADB keyboard to be used on one ADB computer (old Macintosh and Apple I
 - connect 9 (PB5) to the mini-din A pin 1 (computer adb line)
 - connect VCC to the mini-din B pin 3 (keyboard power)
 - connect 10 (PB6) to the mini-din B pin 1 (keyboard adb line)
+- connect 10 (PB6) to VCC through the resistor
 - mark the mini-din B as the keyboard connector
 
 > [!CAUTION]
